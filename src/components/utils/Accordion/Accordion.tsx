@@ -19,9 +19,9 @@ export default function Accordion({ title, children }: AccordionProps) {
       }}/>
       {title}
     </div>
-    <div className={`${isOpen ? "accordion-conainer-open" : "accordion-conainer-close"}`}>
+    {isOpen && <div className={`${isOpen ? "accordion-conainer-open" : "accordion-conainer-close"}`}>
       {children}
-    </div>
+    </div>}
    </div>
   );
 }
