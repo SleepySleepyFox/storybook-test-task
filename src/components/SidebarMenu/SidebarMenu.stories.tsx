@@ -12,6 +12,12 @@ type Story = StoryObj<typeof SidebarMenu>
 
 export const Default: Story = {
     args: {
-        text: "YO"
+        children: (
+            <div>
+              <p>This is the sidebar content!</p>
+              <button>Click me</button>
+            </div>
+          ),
+        
     },
 };

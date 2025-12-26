@@ -14,12 +14,12 @@
 }
 .sidebar-menu-closed{
     width: 0;
-    overflow: hidden; /* hide content while closed */
-    transition: width 0.5s ease-in;
+    overflow: clip; /* hide content while closed */
+    transition: width 0.2s ease-in;
 }
 .sidebar-menu-open{
     width: 200px;
-    transition: width 0.5s ease-in;
+    transition: width 0.2s ease-in;
 }
 
 .sidebar-menu-togel{
