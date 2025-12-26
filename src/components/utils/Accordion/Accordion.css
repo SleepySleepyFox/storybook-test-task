@@ -1,0 +1,16 @@
+.accordion-conainer-open{
+    padding: 10px;
+    width: fit-content;
+    height: 100px;
+    transition: height 0.2s ease-in;
+    overflow: clip;
+}
+
+.accordion-conainer-close{
+    padding: 10px;
+    width: fit-content;
+    height: 0px;
+    transition: 0.2s ease-in;
+    overflow: clip;
+
+}

@@ -1,10 +1,15 @@
+.sidebar-menu-env{
+    width: 1000px;
+    background: #000;
+}
 .sidebar-menu-container{
     position: fixed;
     left: 0;
     top: 0;
     display: flex;
-    flex-direction: row-reverse;
-
+    /* flex-direction: row-reverse; */
+    background: transparent;
+    width: 100vw;
 }
 .sidebar-menu-content{
     background: rgb(209, 209, 209);
@@ -14,16 +19,19 @@
 }
 .sidebar-menu-closed{
     width: 0;
+    padding: 0;
     overflow: clip; /* hide content while closed */
     transition: width 0.2s ease-in;
 }
 .sidebar-menu-open{
+    padding: 10px;
     width: 200px;
     transition: width 0.2s ease-in;
 }
 
 .sidebar-menu-togel{
-position: relative;
+    z-index: 10;
+    position: relative;
 }
 
 .sidebar-menu-togel-close{
