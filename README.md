@@ -16,9 +16,10 @@ TOAST COMPONENT
 INPUT COMPONENT
 ![Alt text](/images/Toast1.png)
 ![Alt text](/images/Toast2.png)
-![Alt text](/images/Toast3.png")
+![Alt text](/images/Toast3.png)
 
 SIDEBAR COMPONENT
+
 ![Alt text](/images/Sidebar3.png)
 ![Alt text](/images/Sidebar4.png)
 
